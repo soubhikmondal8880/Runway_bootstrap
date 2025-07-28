@@ -1,0 +1,262 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.blue-navy{
+    background-color: rgb(255, 255, 255);
+}
+.active{
+    color: rgb(17, 0, 255) !important;
+}
+.color_nav{
+    color: rgb(58, 56, 55);
+}
+.nav_color{
+    color: rgb(245, 236, 236);
+}
+
+
+.fonts_style {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  
+}
+.fonts_style2{
+      font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.head-text{
+position: absolute;
+    left: 5%;
+    top: 40%;
+
+}
+.para1{
+    color: rgb(75, 72, 72);
+    font-weight: 300;
+      font-family: "Montserrat", sans-serif;
+}
+.para2{
+    font-family: "Montserrat",sans-serif;
+    color: rgb(49, 47, 47);
+    font-size: 60px;
+    font-weight: 786;
+
+}
+.button:hover{
+    border-radius: 20px;
+}
+
+.second-part{
+    background-color: rgb(76, 122, 206);
+}
+.about{
+    padding-top: 125px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about_para{
+
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.list{
+    list-style: none;
+}
+.head2{
+    color: #ffef13;;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+    font-size: 18px;
+}
+.head3{
+    font-size: 18px;
+    font-family: "Montserrat",sans-serif ;
+}
+
+.service{
+    margin-top:  35px;
+     padding: 60px 0;
+     margin-bottom: 135px;
+}
+.service .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-head{
+     font-size: 38px;
+    font-family: "Montserrat",sans-serif ;
+    font-weight: 600;
+    color: rgb(73, 64, 64);
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+.service-para{
+       text-align: center;
+       margin-bottom: 55px;
+}
+.icon{
+    color: rgb(52, 116, 201);
+    text-align: center;
+    font-size: 52px;
+    padding-top: 15px;
+}
+/* CLIENTS Section Styling */
+.client {
+  padding: 60px 0;
+}
+
+.client-head {
+ font-size: 38px;
+    font-family: "Montserrat",sans-serif ;
+    font-weight: 600;
+
+  position: relative;
+  display: inline-block;
+}
+
+.underline {
+  width: 80px;
+  height: 2px;
+  border: 1px dashed #888282;
+  margin: 0 auto 2px auto;
+  margin-bottom: 25px;
+}
+
+.client-para {
+    
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto 30px auto;
+  color: #444;
+  font-size: 1rem;
+  margin-top:25px ;
+}
+
+/* Logo Styling */
+.client-logo {
+  max-width: 100%;
+  height: 35px;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.client-logo:hover {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.card_head{
+    text-align: center;
+    font-family:"Montserrat",sans-serif  ;
+    font-size: 22px;
+    font-weight: 685;
+    color: rgb(36, 35, 35);
+    
+}
+.card_text{
+    color: rgb(56, 52, 52);
+    text-align: center;
+    padding: 15px 0 0;
+   font-family: "Open Sans", sans-serif;
+   font-size: 14px;
+}
+.gallery{
+      padding: 80px 0;
+}
+.gallery-head, .client-head, .testimonial-head, .pricing-head, .teams-head, .contact-head{
+     font-size: 38px;
+    font-family: "Montserrat",sans-serif ;
+    font-weight: 600;
+    color: rgb(73, 64, 64);
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+.gallery-para, .client-para, .testimonial-para, .pricing-para, .teams-para{
+       text-align: center;
+       margin-bottom: 55px;
+}
+.custom-hover:hover {
+  background-color: rgb(255, 0, 149) !important;
+  color: white !important;
+  
+}
+.testimonial{
+    margin-top: 150px;
+      margin-bottom: 135px;
+}
+
+.space{
+    margin-top: 56px;
+}
+.section-color{
+    background-color: rgba(223, 221, 221, 0.87);
+}
+.text-color{
+    color: rgb(65, 65, 211);
+}
+.text-font{
+    font-size: 15px;
+
+}
+.testimonial-head {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+.testimonial-box {
+  border: 1px solid #007bff;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-para {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #333;
+}
+
+  .social-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    line-height: 32px;
+    text-align: center;
+    color: rgb(165, 164, 164);
+    transition: all 0.3s ease;
+  }
+.icons{
+    color: rgb(122, 194, 235);
+}
+.map{
+    margin-top: 50px;
+    width: 100%;
+height: 350px;
+    margin-bottom: 65px;
+}
